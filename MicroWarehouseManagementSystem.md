@@ -66,7 +66,7 @@
 
 #### 总架构
 
-![](picture\mwms1.png)
+![](https://github.com/YMEN6/ProjectShowcase/tree/main/picture/mwms1.png)
 
 - Kafka：参考HTTP2.0，基于业务对请求进行划分、隔离；
   - 避免非相关业务间的影响，尤其是队头阻塞效应；
@@ -80,7 +80,7 @@
 
 #### 冷热分离
 
-![](picture\mwms2.png)
+![]((https://github.com/YMEN6/ProjectShowcase/tree/main/picture/mwms2.png)
 
 场景说明：业务上的对象，通常只需要对其中的**部分属性**进行读写访问，因此关键在于对这部分属性进行处理；
 
@@ -101,7 +101,7 @@
 
 #### 动态读写分离
 
-![](picture\mwms3.png)
+![]((https://github.com/YMEN6/ProjectShowcase/tree/main/picture/mwms3.png)
 
 场景说明：redis的读写，基于负载自适应调整，主要目标是提升高负载场景下读的效率，并降低redis单机读写压力；
 

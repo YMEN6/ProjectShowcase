@@ -10,7 +10,7 @@
 
 ### 项目说明
 
-##### [微型仓储管理系统 MWMS]()
+##### [微型仓储管理系统 MWMS](https://github.com/YMEN6/ProjectShowcase/blob/main/MicroWarehouseManagementSystem.md)
 
 MWMS是一款面向有限计算资源的微型仓储管理系统，提供库存管理、订单管理、库存跟踪和订单报告等功能；
 
