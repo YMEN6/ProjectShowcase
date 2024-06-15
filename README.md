@@ -15,3 +15,7 @@
 MWMS是一款面向有限计算资源的微型仓储管理系统，提供库存管理、订单管理、库存跟踪和订单报告等功能；
 
 
+
+##### [任务调度平台 AirflowPlus](https://github.com/YMEN6/ProjectShowcase/blob/main/AirflowPlus.md)
+
+AirflowPlus基于开源项目Apache-Airflow进行二次开发，针对高度并行化场景，对调度性能进行优化以克服原生项目的性能瓶颈。
