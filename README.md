@@ -5,10 +5,17 @@
 | 时间       | 修订版本 | 说明                       |
 | ---------- | -------- | -------------------------- |
 | 2024/06/13 | 0.10     | 针对当前简历项目进行初始化 |
+| 2024/08/10 | 0.11     | 简单补充近期项目           |
 
 
 
 ### 项目说明
+
+[**容器轻量执行框架 LitePodOpsFramework**](https://github.com/YMEN6/ProjectShowcase/blob/main/LitePodOps.md)
+
+LitePodOpsFramework为严格资源配额POD提供轻量、无干扰的操作下发通道。框架通过读写拆分，结合CROUP、Namespace、ReNice、分批平缓等方式，确保操作全程轻量无干扰，避免资源竞争。同时，框架通过多级白名单、串并行调度控制、熔断等手段确保风险可控。
+
+
 
 ##### [微型仓储管理系统 MWMS](https://github.com/YMEN6/ProjectShowcase/blob/main/MicroWarehouseManagementSystem.md)
 
