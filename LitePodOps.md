@@ -62,8 +62,6 @@
 
 ### 具体方案
 
-（这里插入一张，前后端分离的架构图）
-
 #### 资源限制
 
 ![](https://github.com/YMEN6/ProjectShowcase/blob/main/picture/LitePodOps1.png?raw=true)
