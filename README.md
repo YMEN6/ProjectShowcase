@@ -11,9 +11,9 @@
 
 ### 项目说明
 
-[**容器轻量执行框架 LitePodOpsFramework**](https://github.com/YMEN6/ProjectShowcase/blob/main/LitePodOps.md)
+[**云上OPS平台 LitePodOps**](https://github.com/YMEN6/ProjectShowcase/blob/main/LitePodOps.md)
 
-LitePodOpsFramework为严格资源配额POD提供轻量、无干扰的操作下发通道。框架通过读写拆分，结合CROUP、Namespace、ReNice、分批平缓等方式，确保操作全程轻量无干扰，避免资源竞争。同时，框架通过多级白名单、串并行调度控制、熔断等手段确保风险可控。
+主要业务、组件已完成上云，部分业务场景下需要在容器内进行临时变更操作，要求不能影响容器以及业务程序的正常运行。该子项目通过资源限制与风险控制，为云上容器提供垃圾清理的解决方案。
 
 
 
@@ -31,5 +31,5 @@ AirflowPlus基于开源项目Apache-Airflow进行二次开发，针对高度并�
 
 ##### [交易运维平台 TradingOpSystem](https://github.com/YMEN6/ProjectShowcase/blob/main/TradingOpSystem.md)
 
-TradingOpSystem通过抽象多种网络连接方式为统一接口，并构建网络连接池和链路聚合技术，解决了高频量化交易系统中的网络连接复杂、运维困难、带宽有限和稳定性低的问题，适用于高频交易系统、金融数据中心和复杂网络环境下的运维管理。
+高频量化交易环境下的网络连接复杂、带宽有限、稳定性较低。TradingOpsSystem通过网络连接池与链路聚合，为高频交易系统、金融数据中心和复杂网络环境提供可行的运维平台。
 
